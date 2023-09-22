@@ -14,11 +14,11 @@ export default async function handler(
     const message = {
       from: data.email,
       to: process.env.SMTP_ADDRESS,
-      subject: 'Kontakt - LukasPro.pl',
+      subject: 'contact - Edicrei Marcondes',
       html: `
-      <b>Imię i nazwisko: </b>${data.name.replace(/<[^>]+>/g, '')}<br>
+      <b>First name and last name: </b>${data.name.replace(/<[^>]+>/g, '')}<br>
       <b>E-mail: </b> ${data.email.replace(/<[^>]+>/g, '')}<br><br>
-      <b>Wiadomość: </b> ${data.message.replace(/<[^>]+>/g, '')}
+      <b>message: </b> ${data.message.replace(/<[^>]+>/g, '')}
       `,
     };
 
