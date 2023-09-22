@@ -157,30 +157,34 @@
     "projectsTitle": "Projects <span>Made</span>",
     "projects": [
       {
-        "title": "Game in JavaScript",
-        "img": "ftbgSCf.png",
-        "stack": ["HTML", "SCSS", "JavaScipt", "TypeScript"],
-        "live": "https://lukas60055.github.io/Snake-Game-TypeScript/",
-        "code": "https://github.com/lukas60055/Snake-Game-TypeScript/"
+        "title": "3d chess react",
+        "img": "3dchess.png",
+        "stack": ["HTML", "SCSS", "JavaScipt", "TypeScript", "chakra ui"],
+        "live": "https://650dac77add44b0de0132a27--jovial-mermaid-b1cfd4.netlify.app/",
+        "code": ""
       },
       {
-        "title": "Landing Page in React",
-        "img": "k8vGgIY.png",
+        "title": "Landing Page in Bootstrap",
+        "img": "livros.png",
         "stack": [
           "HTML",
           "Bootstrap",
-          "TypeScript",
-          "React",
-          "Styled Components"
+          "JavaScipt"
         ],
-        "live": "https://lukas60055.github.io/React-Landing-Page-Ebook/",
-        "code": "https://github.com/lukas60055/React-Landing-Page-Ebook/"
+        "live": "https://bright-torrone-a4576f.netlify.app/"
       },
       {
-        "title": "Page in WordPress",
-        "img": "cTqheoh.png",
-        "stack": ["CSS", "PHP", "WordPress"],
-        "live": "https://ucpro.pl/"
+        "title": "Ecommerce",
+        "img": "eccomerce.png",
+        "stack": [
+          "HTML",
+          "Css",
+          "TypeScript",
+          "React",
+          "sass",
+          "firebase"
+        ],
+        "live": "https://hilarious-daffodil-933fc4.netlify.app/"
       }
     ],
     "buttons": ["View", "Code", "No preview", "View all"]

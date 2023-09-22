@@ -157,30 +157,35 @@
     "projectsTitle": "Projetos <span>projetos</span>",
     "projects": [
       {
-        "title": "Gra w JavaScript",
-        "img": "ftbgSCf.png",
+        "title": "Xadrez 3d",
+        "img": "3dchess.png",
         "stack": ["HTML", "SCSS", "JavaScipt", "TypeScript"],
-        "live": "https://lukas60055.github.io/Snake-Game-TypeScript/",
-        "code": "https://github.com/lukas60055/Snake-Game-TypeScript/"
+        "live": "https://650dac77add44b0de0132a27--jovial-mermaid-b1cfd4.netlify.app/",
+        "code": ""
       },
       {
-        "title": "Strona w React",
-        "img": "k8vGgIY.png",
+        "title": "Landing page em bootstrap",
+        "img": "livros.png",
         "stack": [
           "HTML",
           "Bootstrap",
-          "TypeScript",
-          "React",
-          "Styled Components"
+          "css",
+          "javascript"
         ],
-        "live": "https://lukas60055.github.io/React-Landing-Page-Ebook/",
-        "code": "https://github.com/lukas60055/React-Landing-Page-Ebook/"
+        "live": "https://bright-torrone-a4576f.netlify.app/"
       },
       {
-        "title": "Strona w WordPress",
-        "img": "cTqheoh.png",
-        "stack": ["CSS", "PHP", "WordPress"],
-        "live": "https://ucpro.pl/"
+        "title": "Ecomerce",
+        "img": "eccomerce.png",
+        "stack": [
+          "HTML",
+          "Css",
+          "TypeScript",
+          "React",
+          "sass",
+          "firebase"
+        ],
+        "live": "https://hilarious-daffodil-933fc4.netlify.app/"
       }
     ],
     "buttons": ["Veja", "Código", "Não há visualização", "Veja tudo"]

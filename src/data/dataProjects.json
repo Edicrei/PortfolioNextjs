@@ -55,8 +55,7 @@
         "Bootstrap",
         "JavaScipt"
       ],
-      "live": "https://bright-torrone-a4576f.netlify.app/",
-      "code": ""
+      "live": "https://bright-torrone-a4576f.netlify.app/"
     },
     {
       "titlePL": "Dashboard",
@@ -84,7 +83,7 @@
         "sass",
         "firebase"
       ],
-      "live": "https://edicrei.github.io/portfolio/assets/img/portfolio/eccomerce.png"
+      "live": "https://hilarious-daffodil-933fc4.netlify.app/"
     },
     {
       "titlePL": "Live streams app",
@@ -100,9 +99,9 @@
       "titlePL": "3d chess react",
       "titleEN": "3d chess react",
       "img": "3dchess.png",
-      "stack": ["HTML", "SCSS", "JavaScipt", "TypeScript"],
-      "live": "",
-      "code": "https://650dac77add44b0de0132a27--jovial-mermaid-b1cfd4.netlify.app/"
+      "stack": ["HTML", "SCSS", "JavaScipt", "TypeScript", "chakra ui"],
+      "live": "https://650dac77add44b0de0132a27--jovial-mermaid-b1cfd4.netlify.app/",
+      "code": ""
     }
   ]
 }
