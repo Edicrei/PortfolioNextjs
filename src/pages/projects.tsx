@@ -29,7 +29,7 @@ const ProjectPage = (data: any) => {
               >
                 <Card
                   {...project}
-                  title={language == 'PL' ? project.titlePL : project.titleEN}
+                  title={language == 'PT' ? project.titlePL : project.titleEN}
                   buttons={data[language].projects.buttons}
                 />
               </div>
@@ -61,7 +61,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      PL: dataPL.default,
+      PT: dataPL.default,
       EN: dataEN.default,
       projects: dataProjects.projects,
     },

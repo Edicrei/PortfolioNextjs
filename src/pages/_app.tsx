@@ -36,7 +36,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
         canonical=""
         openGraph={{
           type: 'website',
-          locale: language === 'EN' ? 'en_US' : 'pl_PL',
+          locale: language === 'EN' ? 'en_US' : 'pt_BR',
           url: '',
           description: siteDescription,
           images: [
