@@ -44,7 +44,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      PT: dataPL.default,
+      PL: dataPL.default,
       EN: dataEN.default,
     },
   };

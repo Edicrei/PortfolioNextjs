@@ -30,7 +30,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
         <title>Portfolio | Edicrei Marcondes</title>
-      </Head>
+      </Head> 
       <DefaultSeo
         description={siteDescription}
         canonical=""

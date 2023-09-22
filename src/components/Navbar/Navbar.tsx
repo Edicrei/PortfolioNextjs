@@ -57,7 +57,7 @@ const Navbar = ({ data, onChangeLanguage }: NavbarProps) => {
           type="image"
           src="/brazil-flag-icon.svg"
           onClick={() => {
-            onChangeLanguage('PT');
+            onChangeLanguage('PL');
             hideMenu();
           }}
         />
