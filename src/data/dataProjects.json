@@ -1,0 +1,108 @@
+{
+  "projects": [
+    {
+      "titlePL": "Site de projetos 3d",
+      "titleEN": "3d design website",
+      "img": "cabin.png",
+      "stack": ["HTML",  "CSS",  "Material UI", "JavaScript", "React", "Firebase", "API", "google"],
+      "live": "https://improv3d.com.br/"
+    },
+    {
+      "titlePL": "Demonstração de efeito drag and drop",
+      "titleEN": "Drag and drop effect demonstration",
+      "img": "dragdrop.png",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScipt",
+        "React",
+        "firebase",
+        "google"
+      ],
+      "live": "https://resilient-basbousa-c72ebe.netlify.app/",
+      "code": "https://github.com/Edicrei/teste-coopers-edicrei"
+    },
+    {
+      "titlePL": "Portfolio  Next.js",
+      "titleEN": "Portfolio in Next.js",
+      "img": "portfolio.png",
+      "stack": [
+        "HTML",
+        "Bootstrap",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Styled Components",
+        "API"
+      ],
+      "live": "",
+      "code": ""
+    },
+    {
+      "titlePL": "Social",
+      "titleEN": "Redes Sociais",
+      "img": "social.png",
+      "stack": ["HTML", "SCSS", "JavaScipt", "TypeScript"],
+      "live": "https://voluble-chaja-4f567f.netlify.app/",
+      "code": ""
+    },
+    {
+      "titlePL": "Landing Page em Bootstrap",
+      "titleEN": "Landing Page in Bootstrap",
+      "img": "livros.png",
+      "stack": [
+        "HTML",
+        "Bootstrap",
+        "JavaScipt"
+      ],
+      "live": "https://bright-torrone-a4576f.netlify.app/",
+      "code": ""
+    },
+    {
+      "titlePL": "Dashboard",
+      "titleEN": "Dashboard",
+      "img": "dashboard.png",
+      "stack": [
+        "HTML",
+        "Tailwind css",
+        "TypeScript",
+        "React",
+        "vite"
+      ],
+      "live": "https://64ff7b9500d9d551a38e1285--creative-zuccutto-dfcc88.netlify.app/",
+      "code": "https://github.com/cruip/tailwind-dashboard-template"
+    },
+    {
+      "titlePL": "Ecomerce",
+      "titleEN": "Ecommerce",
+      "img": "eccomerce.png",
+      "stack": [
+        "HTML",
+        "Css",
+        "TypeScript",
+        "React",
+        "sass",
+        "firebase"
+      ],
+      "live": "https://edicrei.github.io/portfolio/assets/img/portfolio/eccomerce.png"
+    },
+    {
+      "titlePL": "Live streams app",
+      "titleEN": "Live streams app",
+      "img": "streaming.png",
+      "stack": ["HTML", "CSS", "JavaScript", "react" ],
+      "live": "https://edicrei.github.io/portfolio/assets/img/portfolio/livestreamweb.mp4",
+      "code": "https://github.com/Edicrei/livestream"
+      
+    },
+
+    {
+      "titlePL": "3d chess react",
+      "titleEN": "3d chess react",
+      "img": "3dchess.png",
+      "stack": ["HTML", "SCSS", "JavaScipt", "TypeScript"],
+      "live": "",
+      "code": "https://650dac77add44b0de0132a27--jovial-mermaid-b1cfd4.netlify.app/"
+    }
+  ]
+}

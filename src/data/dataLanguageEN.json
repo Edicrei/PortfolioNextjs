@@ -1,0 +1,205 @@
+{
+  "navbar": [
+    { "title": "Home", "link": "/#home" },
+    { "title": "Skills", "link": "/#skills" },
+    { "title": "Projects", "link": "/#projects" },
+    { "title": "Contact", "link": "/#contact" }
+  ],
+  "hero": {
+    "heading": "Hi There, 👋 <br />I'm Edicrei <span>Marcondes</span>",
+    "paragraph": "I Am Into",
+    "button": "See more",
+    "github": "https://github.com/Edicrei",
+    "mail": "edifagner@gmail.com"
+  },
+  "skills": {
+    "title": "Skills",
+    "id": "skills",
+    "skills": [
+      {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+      },
+      {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+      },
+      {
+        "name": "SCSS",
+        "icon": "https://img.icons8.com/color/48/000000/sass.png"
+      },
+      {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+      },
+      {
+        "name": "Java",
+        "icon": " https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png"
+      },
+
+      {
+        "name": "Python",
+        "icon": "  https://img.icons8.com/color/48/python--v1.png"
+      },
+     
+      {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+      },
+      {
+        "name": "jQuery",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-color-tal-revivo.png"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "https://img.icons8.com/color/48/000000/typescript.png"
+      },
+      {
+        "name": "React.js",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+      },
+      {
+        "name": "React Native",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+      },
+      {
+        "name": "React Router",
+        "icon": "https://i.imgur.com/HoRI16H.png"
+      },
+      {
+        "name": "Next.js",
+        "icon": "https://img.icons8.com/color/48/ffffff/nextjs.png"
+      },
+      {
+        "name": "Node.js",
+        "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
+      },
+      {
+        "name": "Express.js",
+        "icon": "https://img.icons8.com/color/48/ffffff/express-js.png"
+      },
+      {
+        "name": "Styled Components",
+        "icon": "https://img.icons8.com/color/48/000000/styled-components.png"
+      },
+      {
+        "name": "Tailwind-css",
+        "icon": "https://img.icons8.com/color/48/tailwind_css.png"
+      },
+     
+      {
+        "name": "PHP",
+        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+      },
+      {
+        "name": "Markdown",
+        "icon": "https://img.icons8.com/color/48/000000/markdown.png"
+      },
+      {
+        "name": "WordPress",
+        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+      },
+      {
+        "name": "Git",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+      },
+      {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+      },
+      {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/fluency/48/000000/mysql-logo.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+      },
+      {
+        "name": "Adobe Photoshop",
+        "icon": "https://img.icons8.com/color/48/000000/adobe-photoshop--v1.png"
+      },
+      {
+        "name": "Adobe XD",
+        "icon": "https://img.icons8.com/color/48/000000/adobe-xd--v1.png"
+      },
+      {
+        "name": "Postman",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png"
+      },
+      {
+        "name": "Windows",
+        "icon": "https://img.icons8.com/color/48/000000/windows-10.png"
+      },
+      {
+        "name": "Linux",
+        "icon": "https://img.icons8.com/color/48/000000/linux--v1.png"
+      },
+      {
+        "name": "Visual Studio Code",
+        "icon": "https://img.icons8.com/fluency/48/000000/visual-studio-code-2019.png"
+      },
+      {
+        "name": "Amazon Web Services",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+      },
+      {
+        "name": "Google Cloud Services",
+        "icon": "https://img.icons8.com/color/48/google-cloud.png"
+      }
+
+      
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "id": "projects",
+    "projectsTitle": "Projects <span>Made</span>",
+    "projects": [
+      {
+        "title": "Game in JavaScript",
+        "img": "ftbgSCf.png",
+        "stack": ["HTML", "SCSS", "JavaScipt", "TypeScript"],
+        "live": "https://lukas60055.github.io/Snake-Game-TypeScript/",
+        "code": "https://github.com/lukas60055/Snake-Game-TypeScript/"
+      },
+      {
+        "title": "Landing Page in React",
+        "img": "k8vGgIY.png",
+        "stack": [
+          "HTML",
+          "Bootstrap",
+          "TypeScript",
+          "React",
+          "Styled Components"
+        ],
+        "live": "https://lukas60055.github.io/React-Landing-Page-Ebook/",
+        "code": "https://github.com/lukas60055/React-Landing-Page-Ebook/"
+      },
+      {
+        "title": "Page in WordPress",
+        "img": "cTqheoh.png",
+        "stack": ["CSS", "PHP", "WordPress"],
+        "live": "https://ucpro.pl/"
+      }
+    ],
+    "buttons": ["View", "Code", "No preview", "View all"]
+  },
+  "contact": {
+    "title": "Contact",
+    "id": "contact",
+    "input": [
+      { "name": "Name", "error": "Name is required." },
+      {
+        "name": "E-mail",
+        "error": ["E-mail is required.", "E-mail is invalid."]
+      },
+      {
+        "name": "Message",
+        "error": ["Message is required.", "Message is too short."]
+      }
+    ],
+    "alert": ["Message has been sent.", "An error has occurred."],
+    "send": "Send a message"
+  }
+}

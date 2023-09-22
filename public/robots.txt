@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://lukaspro.pl/
+
+# Sitemaps
+Sitemap: https://lukaspro.pl/sitemap.xml
