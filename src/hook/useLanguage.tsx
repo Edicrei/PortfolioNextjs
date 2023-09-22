@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 
 export const useLanguage = () => {
-  const [state, setState] = useState('PL');
+  const [state, setState] = useState('PT');
 
   useEffect(() => {
     const item = localStorage.getItem('lang');
-    item ? setState(JSON.parse(item)) : setValue('PL');
+    item ? setState(JSON.parse(item)) : setValue('PT');
   }, []);
 
   const setValue = (lang: string) => {

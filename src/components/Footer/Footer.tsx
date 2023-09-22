@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <StyledParagraph>
           Designed With <FaHeart /> By{' '}
-          <a href="https://github.com/lukas60055" target="_blank">
+          <a href="https://github.com/edicrei" target="_blank">
             Edicrei Marcondes
           </a>
         </StyledParagraph>
