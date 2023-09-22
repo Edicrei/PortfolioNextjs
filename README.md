@@ -1,5 +1,8 @@
 # Portfolio Website Next.js
 
+<p align="center">
+  <img src="./public/img/portfolio.png">
+</p>
 
 ## About the project
 
