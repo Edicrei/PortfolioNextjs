@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { useForm } from 'react-hook-form';
 import Section from '../Section';
@@ -25,14 +25,24 @@ const Contact = ({ data }: ContactProps) => {
   } = useForm<FormValues>();
 
   const submitForm = async (dataForm: FormValues) => {
-    try {
+
+
+
+    //console.log(dataForm.name)
+    
+
+
+    window.location.href =  'mailto:' + dataForm.email + '?' + 'subject=Contato '+ dataForm.name  + '&body='  + dataForm.message
+
+
+   /* try {
       if (!sending) {
         setSending(true);
 
         await fetch('/api/send-mail', {
           method: 'POST',
           headers: {
-            Accept: 'application/json, text/plain, */*',
+            Accept: 'application/json, text/plain, *//**',
             'Content-Type': 'application/json',
           },
           body: JSON.stringify(dataForm),
@@ -53,8 +63,13 @@ const Contact = ({ data }: ContactProps) => {
         status: '',
         message: '',
       });
-    }, 5000);
+    }, 5000);*/
   };
+
+
+  
+
+  
 
   return (
     <Section
@@ -63,7 +78,7 @@ const Contact = ({ data }: ContactProps) => {
       icon={<TbMessages />}
       style={{ backgroundColor: '#212529' }}
     >
-      <BoxForm>
+   <BoxForm>
         <div className="row">
           <div className="col d-none d-md-block">
             <Tilt tiltMaxAngleX={15} tiltMaxAngleY={15} scale={1.05}>
@@ -74,16 +89,16 @@ const Contact = ({ data }: ContactProps) => {
               />
             </Tilt>
           </div>
-          <div className="col">
+         <div className="col">
             <StyledForm onSubmit={handleSubmit(submitForm)}>
-              {statusMessage.status ? (
+              {/*statusMessage.status ? (
                 <div
                   className={`alert alert-${statusMessage.status}`}
                   role="alert"
                 >
                   {statusMessage.message}
                 </div>
-              ) : null}
+              ) : null*/}
 
               <Input
                 name="name"
@@ -128,12 +143,16 @@ const Contact = ({ data }: ContactProps) => {
 
               <div className="m-auto m-md-0 mx-md-auto">
                 <StyledButton>
-                  {data.send}{' '}
+                  {/*data.send}{' '}
                   {sending ? (
                     <div className="spinner-border" role="status" />
                   ) : (
-                    <FaPaperPlane />
-                  )}
+                    <FaPaperPlane > Contato</FaPaperPlane>
+                  /*)*/}
+               Contato
+               <FaPaperPlane/>
+                
+               {/*   <button onClick={() => submitForm }>Contact Me</button>*/}
                 </StyledButton>
               </div>
             </StyledForm>

@@ -102,6 +102,18 @@
       "stack": ["HTML", "SCSS", "JavaScipt", "TypeScript", "chakra ui"],
       "live": "https://650dac77add44b0de0132a27--jovial-mermaid-b1cfd4.netlify.app/",
       "code": ""
+    },
+    {
+      "titlePL": "Zine Live, livros e videos",
+      "titleEN": "Zine Live, books and videos",
+      "img": "zine.png",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScipt"       
+      ],
+      "live": "https://zinsite.netlify.app/",
+      "code": "https://github.com/Edicrei/zinesite"
     }
   ]
 }
